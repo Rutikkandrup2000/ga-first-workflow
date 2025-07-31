@@ -1,1 +1,9 @@
-name: 
+name: first-workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display name
+        run: echo "hi rutik"
+      
